@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Loader from "./components/loader";
-import './app.css';
+import './App.css';
 
 function App() {
   const [languange, setLanguage] = useState([]);
